@@ -212,7 +212,6 @@ public class LineaHorizonte {
         s1.imprimir();
         System.out.println("==== S2 ====");
         s2.imprimir();
-        System.out.println("\n");
     }
     
     
@@ -221,7 +220,7 @@ public class LineaHorizonte {
     	 if (p.getY()!=prev) // si este maximo no es igual al del segmento anterior
          {
              this.addPunto(p); // añadimos el punto al LineaHorizonte de salida
-             prev = p.getY();    // actualizamos prev
+             prev = p.getY();    // actualizamos prevdsvdvs
          }
     	 return prev;
     	
