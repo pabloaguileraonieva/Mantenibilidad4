@@ -212,6 +212,7 @@ public class LineaHorizonte {
         s1.imprimir();
         System.out.println("==== S2 ====");
         s2.imprimir();
+        System.out.println("\n");
     }
     
     
